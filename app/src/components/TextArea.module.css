@@ -1,0 +1,28 @@
+.area {
+  width: 100%;
+  background: var(--bg-inset);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  color: var(--ink);
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.12s ease;
+}
+
+.area:focus {
+  border-color: var(--amber);
+}
+
+.prose {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.code {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre;
+}

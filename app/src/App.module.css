@@ -1,0 +1,14 @@
+.shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: calc(var(--space-6) - 10px) var(--space-8);
+  overflow-x: hidden;
+}
+
+.main > * {
+  max-width: 1180px;
+}

@@ -1,0 +1,7 @@
+# local tooling artifacts, not app source
+.impeccable/
+.claude/
+
+# OS/editor cruft
+.DS_Store
+*.log

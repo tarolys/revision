@@ -1,0 +1,55 @@
+/*
+  Direction: personal amber-phosphor terminal / study log.
+  Ground near-black, one committed amber accent (chrome, borders, cursor,
+  round badges), pale neutral off-white for body reading text, green/red
+  reserved for grading semantics only. Monospace is the voice of structure
+  (nav, labels, timestamps, code/regex/LaTeX); body copy that must be read
+  at length uses a plain humanist sans so long answers stay comfortable.
+*/
+
+:root {
+  /* ground */
+  --bg-0: #050604;
+  --bg-1: #0d0f0c;
+  --bg-2: #171a15;
+  --bg-inset: #020302;
+
+  /* amber — committed accent */
+  --amber-dim: #96660a;
+  --amber: #ffb000;
+  --amber-bright: #ffd166;
+  --amber-wash: rgba(255, 176, 0, 0.1);
+  --amber-wash-strong: rgba(255, 176, 0, 0.2);
+
+  /* body ink */
+  --ink: #ece9e2;
+  --ink-dim: #a8a49a;
+  --ink-faint: #6b675e;
+
+  /* semantics */
+  --good: #35d999;
+  --good-wash: rgba(53, 217, 153, 0.14);
+  --bad: #ff4d52;
+  --bad-wash: rgba(255, 77, 82, 0.14);
+
+  /* borders */
+  --line: #383b32;
+  --line-bright: var(--amber-dim);
+
+  /* type */
+  --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+
+  /* rhythm */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+
+  --radius: 2px;
+
+  color-scheme: dark;
+}
